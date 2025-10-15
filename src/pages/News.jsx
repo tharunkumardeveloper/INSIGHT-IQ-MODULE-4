@@ -5,7 +5,7 @@ import { useData } from '../context/DataContext'
 import LoadingSpinner from '../components/LoadingSpinner'
 import NewsVolumeChart from '../components/charts/NewsVolumeChart'
 import SentimentDistributionChart from '../components/charts/SentimentDistributionChart'
-import TopSourcesChart from '../components/charts/TopSourcesChart'
+import TopicTrendsChart from '../components/charts/TopicTrendsChart'
 import NewsCard from '../components/NewsCard'
 import NewsFilters from '../components/NewsFilters'
 
@@ -24,7 +24,7 @@ const News = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const news = await fetchData(`http://localhost:8000/api/data/${domainKey}/news`, `news_${domainKey}`)
+        const news = await fetchData(`http://localhost:8002/api/data/${domainKey}/news`, `news_${domainKey}`)
         setNewsData(news)
         setFilteredNews(news.data || [])
       } catch (error) {
@@ -134,8 +134,8 @@ const News = () => {
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Top Sources</h3>
-          <TopSourcesChart newsData={newsData} />
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Trending Topics</h3>
+          <TopicTrendsChart newsData={newsData} />
         </div>
       </div>
 

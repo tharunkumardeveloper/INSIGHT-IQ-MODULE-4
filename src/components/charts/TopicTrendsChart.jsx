@@ -10,9 +10,12 @@ const TopicTrendsChart = ({ newsData }) => {
     const keywordCounts = new Map()
 
     newsData.data.forEach(item => {
-      if (item.date && item.title) {
-        const date = new Date(item.date).toISOString().split('T')[0]
-        const words = item.title.toLowerCase()
+      const dateField = item.published_at || item.date || item.timestamp
+      const titleField = item.title || item.text || item.content || item.summary
+      
+      if (dateField && titleField) {
+        const date = new Date(dateField).toISOString().split('T')[0]
+        const words = titleField.toLowerCase()
           .replace(/[^\w\s]/g, ' ')
           .split(/\s+/)
           .filter(word => word.length > 3 && !['this', 'that', 'with', 'from', 'they', 'have', 'will', 'been', 'said', 'says', 'more', 'than', 'also', 'just', 'only', 'very', 'well', 'much', 'many', 'most', 'some', 'such', 'even', 'still', 'like', 'back', 'good', 'best', 'first', 'last', 'next', 'year', 'years', 'time', 'week', 'month', 'today'].includes(word))

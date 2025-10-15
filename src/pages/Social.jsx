@@ -3,9 +3,10 @@ import { useParams } from 'react-router-dom'
 import { Heart, MessageCircle, Share, TrendingUp, TrendingDown } from 'lucide-react'
 import { useData } from '../context/DataContext'
 import LoadingSpinner from '../components/LoadingSpinner'
-import EngagementTrendsChart from '../components/charts/EngagementTrendsChart'
-import PlatformDistributionChart from '../components/charts/PlatformDistributionChart'
-import InfluencerLeaderboardChart from '../components/charts/InfluencerLeaderboardChart'
+import SocialBuzzTrendChart from '../components/charts/SocialBuzzTrendChart'
+import SentimentByPlatformChart from '../components/charts/SentimentByPlatformChart'
+import EngagementVsSentimentChart from '../components/charts/EngagementVsSentimentChart'
+import ShareOfVoiceChart from '../components/charts/ShareOfVoiceChart'
 import SocialCard from '../components/SocialCard'
 import SocialFilters from '../components/SocialFilters'
 
@@ -26,8 +27,8 @@ const Social = () => {
     const loadData = async () => {
       try {
         const [social, dashboard] = await Promise.all([
-          fetchData(`http://localhost:8000/api/data/${domainKey}/social`, `social_${domainKey}`),
-          fetchData(`http://localhost:8000/api/dashboard/${domainKey}`, `dashboard_${domainKey}`)
+          fetchData(`http://localhost:8002/api/data/${domainKey}/social`, `social_${domainKey}`),
+          fetchData(`http://localhost:8002/api/dashboard/${domainKey}`, `dashboard_${domainKey}`)
         ])
         setSocialData(social)
         setDashboardData(dashboard)
@@ -114,20 +115,25 @@ const Social = () => {
       </div>
 
       {/* Charts */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Engagement Trends</h3>
-          <EngagementTrendsChart socialData={socialData} />
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Social Buzz & Sentiment Trend</h3>
+          <SocialBuzzTrendChart socialData={socialData} competitors={dashboardData?.competitors || []} />
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Platform Distribution</h3>
-          <PlatformDistributionChart socialData={socialData} />
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Sentiment by Platform</h3>
+          <SentimentByPlatformChart socialData={socialData} />
         </div>
 
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Top Influencers</h3>
-          <InfluencerLeaderboardChart socialData={socialData} />
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Engagement vs Sentiment</h3>
+          <EngagementVsSentimentChart socialData={socialData} />
+        </div>
+
+        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Share of Voice</h3>
+          <ShareOfVoiceChart socialData={socialData} competitors={dashboardData?.competitors || []} />
         </div>
       </div>
 

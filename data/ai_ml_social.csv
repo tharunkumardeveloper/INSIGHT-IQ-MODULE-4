@@ -1,101 +1,46 @@
-Date,Competitor,Title,Link,Sentiment_Score,Sentiment_Type
-2025-07-21,CompanyA,AI_ML development 1,https://openai.com/research,-0.72,Negative
-2025-08-03,CompanyB,AI_ML development 2,https://techcrunch.com/tag/artificial-intelligence/,-0.54,Negative
-2025-09-17,CompanyB,AI_ML development 3,https://www.technologyreview.com/topic/artificial-intelligence/,-0.7,Negative
-2025-07-18,CompanyC,AI_ML development 4,https://huggingface.co/blog,-0.68,Negative
-2025-07-08,CompanyD,AI_ML development 5,https://deepmind.google/discover/blog,-0.88,Negative
-2025-09-03,CompanyA,AI_ML development 6,https://deepmind.google/discover/blog,0.34,Positive
-2025-08-25,CompanyD,AI_ML development 7,https://www.technologyreview.com/topic/artificial-intelligence/,0.9,Positive
-2025-08-26,CompanyB,AI_ML development 8,https://www.anthropic.com/news,-0.47,Negative
-2025-07-24,CompanyD,AI_ML development 9,https://huggingface.co/blog,0.58,Positive
-2025-08-24,CompanyA,AI_ML development 10,https://deepmind.google/discover/blog,0.29,Positive
-2025-08-05,CompanyD,AI_ML development 11,https://www.technologyreview.com/topic/artificial-intelligence/,0.31,Positive
-2025-08-05,CompanyB,AI_ML development 12,https://www.anthropic.com/news,-0.52,Negative
-2025-08-04,CompanyD,AI_ML development 13,https://openai.com/research,0.21,Positive
-2025-09-15,CompanyD,AI_ML development 14,https://deepmind.google/discover/blog,-0.24,Negative
-2025-09-25,CompanyC,AI_ML development 15,https://www.anthropic.com/news,-0.63,Negative
-2025-08-12,CompanyB,AI_ML development 16,https://openai.com/research,-0.68,Negative
-2025-09-12,CompanyE,AI_ML development 17,https://www.anthropic.com/news,0.07,Neutral
-2025-08-15,CompanyD,AI_ML development 18,https://techcrunch.com/tag/artificial-intelligence/,0.39,Positive
-2025-07-18,CompanyC,AI_ML development 19,https://www.anthropic.com/news,-0.92,Negative
-2025-09-04,CompanyA,AI_ML development 20,https://openai.com/research,0.06,Neutral
-2025-09-21,CompanyD,AI_ML development 21,https://www.technologyreview.com/topic/artificial-intelligence/,0.16,Neutral
-2025-09-01,CompanyE,AI_ML development 22,https://stability.ai/news,0.44,Positive
-2025-08-13,CompanyA,AI_ML development 23,https://www.technologyreview.com/topic/artificial-intelligence/,-0.2,Neutral
-2025-07-16,CompanyB,AI_ML development 24,https://deepmind.google/discover/blog,-0.15,Neutral
-2025-09-10,CompanyC,AI_ML development 25,https://huggingface.co/blog,-0.07,Neutral
-2025-07-07,CompanyA,AI_ML development 26,https://techcrunch.com/tag/artificial-intelligence/,-0.97,Negative
-2025-08-30,CompanyE,AI_ML development 27,https://www.technologyreview.com/topic/artificial-intelligence/,0.76,Positive
-2025-08-21,CompanyE,AI_ML development 28,https://www.anthropic.com/news,0.28,Positive
-2025-08-08,CompanyA,AI_ML development 29,https://openai.com/research,0.02,Neutral
-2025-08-06,CompanyD,AI_ML development 30,https://deepmind.google/discover/blog,-0.21,Negative
-2025-09-15,CompanyD,AI_ML development 31,https://deepmind.google/discover/blog,-0.13,Neutral
-2025-08-04,CompanyE,AI_ML development 32,https://techcrunch.com/tag/artificial-intelligence/,-0.23,Negative
-2025-09-05,CompanyB,AI_ML development 33,https://stability.ai/news,0.7,Positive
-2025-07-28,CompanyD,AI_ML development 34,https://techcrunch.com/tag/artificial-intelligence/,0.63,Positive
-2025-07-31,CompanyC,AI_ML development 35,https://openai.com/research,0.58,Positive
-2025-08-20,CompanyD,AI_ML development 36,https://www.anthropic.com/news,-0.91,Negative
-2025-07-23,CompanyC,AI_ML development 37,https://www.anthropic.com/news,-0.2,Neutral
-2025-09-02,CompanyB,AI_ML development 38,https://huggingface.co/blog,-0.43,Negative
-2025-08-18,CompanyB,AI_ML development 39,https://www.technologyreview.com/topic/artificial-intelligence/,0.23,Positive
-2025-08-03,CompanyE,AI_ML development 40,https://openai.com/research,-0.03,Neutral
-2025-09-19,CompanyA,AI_ML development 41,https://techcrunch.com/tag/artificial-intelligence/,0.23,Positive
-2025-07-18,CompanyE,AI_ML development 42,https://deepmind.google/discover/blog,-0.83,Negative
-2025-08-21,CompanyC,AI_ML development 43,https://www.anthropic.com/news,-1.0,Negative
-2025-10-03,CompanyB,AI_ML development 44,https://techcrunch.com/tag/artificial-intelligence/,0.65,Positive
-2025-09-22,CompanyE,AI_ML development 45,https://openai.com/research,-0.16,Neutral
-2025-09-04,CompanyB,AI_ML development 46,https://www.anthropic.com/news,0.03,Neutral
-2025-08-05,CompanyA,AI_ML development 47,https://openai.com/research,-0.68,Negative
-2025-07-25,CompanyC,AI_ML development 48,https://openai.com/research,-0.38,Negative
-2025-09-15,CompanyE,AI_ML development 49,https://openai.com/research,-0.16,Neutral
-2025-09-27,CompanyC,AI_ML development 50,https://techcrunch.com/tag/artificial-intelligence/,0.61,Positive
-2025-07-17,CompanyD,AI_ML development 51,https://huggingface.co/blog,0.17,Neutral
-2025-07-29,CompanyB,AI_ML development 52,https://www.anthropic.com/news,0.19,Neutral
-2025-08-03,CompanyD,AI_ML development 53,https://stability.ai/news,0.87,Positive
-2025-07-12,CompanyE,AI_ML development 54,https://deepmind.google/discover/blog,0.32,Positive
-2025-08-16,CompanyA,AI_ML development 55,https://huggingface.co/blog,-0.93,Negative
-2025-08-03,CompanyD,AI_ML development 56,https://techcrunch.com/tag/artificial-intelligence/,-0.09,Neutral
-2025-09-02,CompanyB,AI_ML development 57,https://deepmind.google/discover/blog,-0.95,Negative
-2025-08-07,CompanyA,AI_ML development 58,https://techcrunch.com/tag/artificial-intelligence/,0.26,Positive
-2025-08-01,CompanyC,AI_ML development 59,https://techcrunch.com/tag/artificial-intelligence/,-0.55,Negative
-2025-08-25,CompanyD,AI_ML development 60,https://stability.ai/news,-0.15,Neutral
-2025-08-26,CompanyD,AI_ML development 61,https://huggingface.co/blog,0.78,Positive
-2025-08-03,CompanyA,AI_ML development 62,https://stability.ai/news,-0.18,Neutral
-2025-08-10,CompanyE,AI_ML development 63,https://www.anthropic.com/news,-0.78,Negative
-2025-08-06,CompanyB,AI_ML development 64,https://openai.com/research,-0.3,Negative
-2025-07-07,CompanyD,AI_ML development 65,https://techcrunch.com/tag/artificial-intelligence/,-0.75,Negative
-2025-08-21,CompanyC,AI_ML development 66,https://huggingface.co/blog,0.1,Neutral
-2025-07-10,CompanyE,AI_ML development 67,https://techcrunch.com/tag/artificial-intelligence/,-0.34,Negative
-2025-07-27,CompanyB,AI_ML development 68,https://stability.ai/news,-0.24,Negative
-2025-07-28,CompanyB,AI_ML development 69,https://techcrunch.com/tag/artificial-intelligence/,-0.23,Negative
-2025-09-06,CompanyB,AI_ML development 70,https://www.anthropic.com/news,0.57,Positive
-2025-08-20,CompanyB,AI_ML development 71,https://deepmind.google/discover/blog,-0.81,Negative
-2025-09-23,CompanyA,AI_ML development 72,https://www.technologyreview.com/topic/artificial-intelligence/,-0.73,Negative
-2025-07-17,CompanyB,AI_ML development 73,https://stability.ai/news,0.15,Neutral
-2025-07-13,CompanyB,AI_ML development 74,https://www.anthropic.com/news,-0.57,Negative
-2025-08-18,CompanyD,AI_ML development 75,https://deepmind.google/discover/blog,0.05,Neutral
-2025-10-03,CompanyB,AI_ML development 76,https://techcrunch.com/tag/artificial-intelligence/,0.97,Positive
-2025-08-06,CompanyC,AI_ML development 77,https://huggingface.co/blog,0.3,Positive
-2025-09-05,CompanyA,AI_ML development 78,https://deepmind.google/discover/blog,-0.33,Negative
-2025-08-17,CompanyC,AI_ML development 79,https://www.technologyreview.com/topic/artificial-intelligence/,-0.6,Negative
-2025-09-25,CompanyD,AI_ML development 80,https://deepmind.google/discover/blog,-0.34,Negative
-2025-09-04,CompanyA,AI_ML development 81,https://openai.com/research,-0.13,Neutral
-2025-09-12,CompanyA,AI_ML development 82,https://huggingface.co/blog,0.68,Positive
-2025-09-17,CompanyE,AI_ML development 83,https://www.technologyreview.com/topic/artificial-intelligence/,-0.29,Negative
-2025-07-17,CompanyD,AI_ML development 84,https://www.anthropic.com/news,0.34,Positive
-2025-09-11,CompanyD,AI_ML development 85,https://www.technologyreview.com/topic/artificial-intelligence/,0.02,Neutral
-2025-09-19,CompanyE,AI_ML development 86,https://openai.com/research,0.32,Positive
-2025-09-19,CompanyE,AI_ML development 87,https://deepmind.google/discover/blog,-0.33,Negative
-2025-09-20,CompanyB,AI_ML development 88,https://openai.com/research,-0.65,Negative
-2025-07-21,CompanyA,AI_ML development 89,https://deepmind.google/discover/blog,0.16,Neutral
-2025-07-22,CompanyD,AI_ML development 90,https://techcrunch.com/tag/artificial-intelligence/,-0.7,Negative
-2025-08-12,CompanyE,AI_ML development 91,https://techcrunch.com/tag/artificial-intelligence/,0.59,Positive
-2025-09-22,CompanyB,AI_ML development 92,https://www.technologyreview.com/topic/artificial-intelligence/,-0.31,Negative
-2025-09-29,CompanyC,AI_ML development 93,https://huggingface.co/blog,0.63,Positive
-2025-07-31,CompanyC,AI_ML development 94,https://huggingface.co/blog,-0.62,Negative
-2025-09-10,CompanyA,AI_ML development 95,https://openai.com/research,0.69,Positive
-2025-08-08,CompanyC,AI_ML development 96,https://techcrunch.com/tag/artificial-intelligence/,0.25,Positive
-2025-08-11,CompanyE,AI_ML development 97,https://techcrunch.com/tag/artificial-intelligence/,-0.24,Negative
-2025-09-10,CompanyA,AI_ML development 98,https://stability.ai/news,0.66,Positive
-2025-07-23,CompanyE,AI_ML development 99,https://deepmind.google/discover/blog,-0.22,Negative
-2025-09-15,CompanyD,AI_ML development 100,https://stability.ai/news,0.09,Neutral
+source,company,title,text,url,published_at,timestamp,mention_count,sentiment_score,sentiment_label,score,raw_json
+twitter,OpenAI,Tweet about GPT-5 release,Excited to test GPT-5! The reasoning improvements are insane,https://twitter.com/openai/status/5001,2025-09-01T12:03:21Z,1751286201,92,0.841,positive,123,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 812, ""shares"": 203, ""comments"": 54}}"
+twitter,OpenAI,Tweet about GPT-5 API,GPT-5 API latency down 40%! This will speed up integrations a lot,https://twitter.com/openai/status/5002,2025-09-02T08:47:55Z,1751365675,114,0.732,positive,97,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 703, ""shares"": 187, ""comments"": 62}}"
+reddit,OpenAI,OpenAI shares GPT-5 prompt tips,GPT-5 prompt handling seems much cleaner and more predictable now,https://reddit.com/r/AI/comments/5003,2025-09-03T17:22:12Z,1751452932,85,0.142,neutral,63,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 219, ""shares"": 46, ""comments"": 37}}"
+reddit,OpenAI,GPT-5 Vision demo shared,OpenAI's GPT-5 Vision demo shows real-time object detection and reasoning,https://reddit.com/r/AI/comments/5004,2025-09-04T20:10:47Z,1751542247,155,0.817,positive,109,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 933, ""shares"": 321, ""comments"": 135}}"
+twitter,OpenAI,GPT-5 dataset discussion,OpenAI discusses GPT-5 dataset transparency improvements,https://twitter.com/openai/status/5005,2025-09-05T11:50:30Z,1751627430,101,-0.176,neutral,71,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 402, ""shares"": 129, ""comments"": 72}}"
+reddit,Anthropic,Tweet about Claude 4.5,Claude 4.5 is quietly outperforming in multi-step reasoning and code tasks,https://reddit.com/r/AI/comments/5006,2025-09-06T14:35:18Z,1751715318,128,0.768,positive,88,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 826, ""shares"": 237, ""comments"": 96}}"
+twitter,Anthropic,Tweet about Claude safety,Anthropic added new safety updates to Claude 4.5 today,https://twitter.com/anthropic/status/5007,2025-09-07T21:44:02Z,1751826242,79,0.688,positive,55,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 317, ""shares"": 77, ""comments"": 23}}"
+reddit,Anthropic,Claude reasoning insights,Claude 4.5 explains answers better than any previous model,https://reddit.com/r/AI/comments/5008,2025-09-08T09:18:47Z,1751909927,76,0.719,positive,62,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 404, ""shares"": 96, ""comments"": 33}}"
+twitter,Anthropic,Tweet about Claude transparency,Transparency tools in Claude 4.5 are very impressive,https://twitter.com/anthropic/status/5009,2025-09-09T18:53:03Z,1752012783,70,0.652,positive,53,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 306, ""shares"": 101, ""comments"": 30}}"
+reddit,DeepMind,Tweet about AlphaFold 3,DeepMind's AlphaFold 3 shows big improvements in protein folding predictions,https://reddit.com/r/AI/comments/5010,2025-09-02T10:22:18Z,1751499738,96,0.818,positive,104,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 615, ""shares"": 203, ""comments"": 49}}"
+twitter,DeepMind,Tweet about DeepMind ML benchmarks,DeepMind sets new ML benchmarks across multiple reasoning datasets,https://twitter.com/deepmind/status/5011,2025-09-03T16:14:55Z,1751662495,70,0.735,positive,68,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 407, ""shares"": 139, ""comments"": 32}}"
+reddit,DeepMind,Tweet about Gemini model,DeepMind Gemini pushes generative model limits further than before,https://reddit.com/r/AI/comments/5012,2025-09-04T08:50:32Z,1751734232,59,0.690,positive,75,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 350, ""shares"": 114, ""comments"": 27}}"
+twitter,DeepMind,Tweet about Quantum ML,DeepMind announces breakthroughs in quantum machine learning methods,https://twitter.com/deepmind/status/5013,2025-09-05T21:33:41Z,1751972021,90,0.581,positive,89,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 430, ""shares"": 155, ""comments"": 39}}"
+reddit,Hugging Face,Tweet about HF transformer,Hugging Face releases new transformer model with better efficiency,https://reddit.com/r/AI/comments/5014,2025-09-06T14:18:09Z,1752051489,78,0.473,positive,64,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 300, ""shares"": 83, ""comments"": 22}}"
+twitter,Hugging Face,Tweet about HF Model Hub,Hugging Face model hub keeps growing with thousands of new models,https://twitter.com/huggingface/status/5015,2025-09-07T23:05:17Z,1752149117,83,0.701,positive,72,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 412, ""shares"": 97, ""comments"": 28}}"
+reddit,Stability AI,Tweet about StableDiffusion updates,Stability AI updates StableDiffusion with better image quality and speed,https://reddit.com/r/AI/comments/5016,2025-09-08T12:12:44Z,1752185564,88,0.755,positive,85,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 508, ""shares"": 145, ""comments"": 61}}"
+twitter,Stability AI,Tweet about SDX launch,StableDiffusion X is finally here! High-res images faster than ever,https://twitter.com/stabilityai/status/5017,2025-09-09T09:37:18Z,1752263838,110,0.811,positive,91,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 620, ""shares"": 198, ""comments"": 74}}"
+reddit,Stability AI,SD community feedback,StableDiffusion community feedback is overwhelmingly positive,https://reddit.com/r/AI/comments/5018,2025-09-10T19:50:05Z,1752419405,72,0.642,positive,58,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 324, ""shares"": 112, ""comments"": 37}}"
+twitter,Hugging Face,Tweet about diffusion models,Hugging Face advances diffusion models with speed and fidelity improvements,https://twitter.com/huggingface/status/5019,2025-09-11T16:22:33Z,1752508353,81,0.719,positive,61,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 412, ""shares"": 104, ""comments"": 41}}"
+reddit,Hugging Face,HF training dataset update,Hugging Face releases cleaned datasets to improve model accuracy,https://reddit.com/r/AI/comments/5020,2025-09-12T14:48:50Z,1752600530,87,0.531,positive,66,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 338, ""shares"": 121, ""comments"": 45}}"twitt
+er,DeepMind,DeepMind Gemini demo,DeepMind Gemini shows impressive multimodal reasoning capabilities,https://twitter.com/deepmind/status/5021,2025-09-13T18:05:12Z,1752696312,95,0.772,positive,98,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 610, ""shares"": 201, ""comments"": 53}}"
+reddit,DeepMind,AlphaTensor insights,AlphaTensor by DeepMind demonstrates new matrix multiplication optimizations,https://reddit.com/r/AI/comments/5022,2025-09-14T09:37:47Z,1752785867,69,0.643,positive,59,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 329, ""shares"": 108, ""comments"": 41}}"
+twitter,Anthropic,Claude 4.5 multi-step reasoning,Claude 4.5 is handling multi-step reasoning very efficiently,https://twitter.com/anthropic/status/5023,2025-09-15T11:55:33Z,1752881733,87,0.729,positive,65,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 412, ""shares"": 109, ""comments"": 47}}"
+reddit,Anthropic,Claude 4.5 safety report,Claude 4.5 safety improvements reviewed by AI community,https://reddit.com/r/AI/comments/5024,2025-09-16T20:44:21Z,1752991461,74,0.671,positive,53,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 301, ""shares"": 92, ""comments"": 31}}"
+twitter,OpenAI,Tweet about GPT-5 reasoning,GPT-5 reasoning improvements make coding suggestions much more accurate,https://twitter.com/openai/status/5025,2025-09-17T14:12:03Z,1753089123,102,0.794,positive,91,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 712, ""shares"": 201, ""comments"": 57}}"
+reddit,OpenAI,GPT-5 API latency analysis,Community discussion: GPT-5 API is faster but edge cases still exist,https://reddit.com/r/AI/comments/5026,2025-09-18T09:33:12Z,1753177992,65,-0.045,neutral,48,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 221, ""shares"": 87, ""comments"": 21}}"
+twitter,OpenAI,Tweet about GPT-5 chat improvements,GPT-5 chat is way smoother in multi-turn conversations,https://twitter.com/openai/status/5027,2025-09-19T16:50:44Z,1753270244,89,0.781,positive,79,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 505, ""shares"": 154, ""comments"": 44}}"
+reddit,Hugging Face,HF new NLP model,Hugging Face announces new NLP model optimized for low-resource languages,https://reddit.com/r/AI/comments/5028,2025-09-20T12:15:33Z,1753356933,74,0.651,positive,55,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 312, ""shares"": 97, ""comments"": 31}}"
+twitter,Hugging Face,Tweet about HF dataset hub,Hugging Face dataset hub adds multilingual datasets for research,https://twitter.com/huggingface/status/5029,2025-09-21T08:47:11Z,1753442431,81,0.699,positive,63,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 389, ""shares"": 111, ""comments"": 38}}"
+reddit,Stability AI,StableDiffusion community update,StableDiffusion community shares creative uses and mods,https://reddit.com/r/AI/comments/5030,2025-09-22T15:30:52Z,1753531852,88,0.742,positive,67,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 438, ""shares"": 123, ""comments"": 42}}"
+twitter,Stability AI,Tweet about SDX plugin release,SDX plugins expand creative possibilities for artists,https://twitter.com/stabilityai/status/5031,2025-09-23T10:22:15Z,1753622535,93,0.812,positive,74,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 511, ""shares"": 178, ""comments"": 51}}"
+reddit,DeepMind,DeepMind AlphaCode demo,DeepMind AlphaCode shows improved code synthesis on competitive programming tasks,https://reddit.com/r/AI/comments/5032,2025-09-24T18:50:41Z,1753720241,71,0.686,positive,52,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 321, ""shares"": 103, ""comments"": 27}}"
+twitter,DeepMind,Tweet about Gemini multimodal,DeepMind Gemini sets new state-of-the-art in multimodal tasks,https://twitter.com/deepmind/status/5033,2025-09-25T11:05:33Z,1753814733,86,0.758,positive,68,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 427, ""shares"": 129, ""comments"": 41}}"
+reddit,Anthropic,Claude 4.5 code reasoning update,Claude 4.5 improves code generation consistency and explanations,https://reddit.com/r/AI/comments/5034,2025-09-26T09:42:18Z,1753908138,63,0.714,positive,49,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 280, ""shares"": 95, ""comments"": 22}}"
+twitter,Anthropic,Tweet about Claude 4.5 API improvements,Claude 4.5 API handles longer prompts more reliably,https://twitter.com/anthropic/status/5035,2025-09-27T16:30:55Z,1754001055,77,0.703,positive,57,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 365, ""shares"": 102, ""comments"": 28}}"
+reddit,OpenAI,GPT-5 fine-tuning tips,GPT-5 fine-tuning workflow is much smoother now,https://reddit.com/r/AI/comments/5036,2025-09-28T12:18:33Z,1754087913,88,0.799,positive,62,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 403, ""shares"": 127, ""comments"": 34}}"
+twitter,OpenAI,Tweet about GPT-5 applications,GPT-5 powering new apps in education and healthcare,https://twitter.com/openai/status/5037,2025-09-29T14:44:18Z,1754183058,95,0.812,positive,71,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 489, ""shares"": 158, ""comments"": 46}}"
+reddit,Hugging Face,HF transformer efficiency,New Hugging Face transformer reduces memory usage significantly,https://reddit.com/r/AI/comments/5038,2025-09-30T08:55:47Z,1754267747,67,0.679,positive,53,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 279, ""shares"": 86, ""comments"": 29}}"
+twitter,Hugging Face,Tweet about HF evaluation metrics,Hugging Face releases new evaluation metrics for NLP models,https://twitter.com/huggingface/status/5039,2025-09-30T19:32:12Z,1754329932,72,0.701,positive,55,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 304, ""shares"": 92, ""comments"": 31}}"
+reddit,Stability AI,StableDiffusion X community showcase,Artists showcase creations using StableDiffusion X,https://reddit.com/r/AI/comments/5040,2025-09-28T16:11:05Z,1754107865,85,0.768,positive,61,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 401, ""shares"": 117, ""comments"": 38}}"
+twitter,Stability AI,Tweet about SDX AI art contest,Stability AI announces AI art contest using SDX,https://twitter.com/stabilityai/status/5041,2025-09-29T09:42:18Z,1754186538,94,0.815,positive,70,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 487, ""shares"": 159, ""comments"": 45}}"
+reddit,DeepMind,DeepMind Gemini update,DeepMind Gemini update improves reasoning on scientific datasets,https://reddit.com/r/AI/comments/5042,2025-09-26T10:22:41Z,1753911761,69,0.742,positive,54,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 332, ""shares"": 106, ""comments"": 29}}"
+twitter,DeepMind,Tweet about AlphaTensor efficiency,AlphaTensor now computes matrix multiplications 30% faster,https://twitter.com/deepmind/status/5043,2025-09-27T12:55:33Z,1754007333,78,0.687,positive,57,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 379, ""shares"": 112, ""comments"": 34}}"
+reddit,Anthropic,Claude 4.5 multimodal reasoning,Claude 4.5 performs well on multimodal inputs and reasoning,https://reddit.com/r/AI/comments/5044,2025-09-25T08:33:21Z,1753809201,71,0.719,positive,50,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""reddit"", ""engagement_metrics"": {""likes"": 293, ""shares"": 98, ""comments"": 24}}"
+twitter,Anthropic,Tweet about Claude 4.5 community feedback,Community feedback shows Claude 4.5 improvements are noticeable,https://twitter.com/anthropic/status/5045,2025-09-30T15:40:03Z,1754335203,83,0.701,positive,61,"{""domain"": ""ai_ml"", ""processed_at"": ""2025-10-14T10:12:03"", ""source_type"": ""twitter"", ""engagement_metrics"": {""likes"": 364, ""shares"": 107, ""comments"": 33}}"

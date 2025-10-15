@@ -65,14 +65,21 @@ export const DataProvider = ({ children }) => {
   }, [])
 
   const refreshData = useCallback((domainKey) => {
+    console.log(`Refreshing data for domain: ${domainKey}`)
     invalidateCache(domainKey)
   }, [invalidateCache])
+
+  const clearAllCache = useCallback(() => {
+    console.log('Clearing all cached data')
+    setCache({})
+  }, [])
 
   return (
     <DataContext.Provider value={{ 
       fetchData, 
       invalidateCache, 
       refreshData,
+      clearAllCache,
       isLoading: (key) => loading[key] || false
     }}>
       {children}

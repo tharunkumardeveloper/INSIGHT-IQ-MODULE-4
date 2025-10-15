@@ -8,12 +8,13 @@ const SentimentChart = ({ newsData, socialData }) => {
     // Process news data
     if (newsData?.data) {
       newsData.data.forEach(item => {
-        if (item.date && item.sentiment_score !== undefined) {
-          const date = new Date(item.date).toISOString().split('T')[0]
+        const dateField = item.published_at || item.date || item.timestamp
+        if (dateField && item.sentiment_score !== undefined) {
+          const date = new Date(dateField).toISOString().split('T')[0]
           if (!dataMap.has(date)) {
             dataMap.set(date, { date, news: [], social: [] })
           }
-          dataMap.get(date).news.push(item.sentiment_score)
+          dataMap.get(date).news.push(parseFloat(item.sentiment_score))
         }
       })
     }
@@ -21,12 +22,13 @@ const SentimentChart = ({ newsData, socialData }) => {
     // Process social data
     if (socialData?.data) {
       socialData.data.forEach(item => {
-        if (item.date && item.sentiment_score !== undefined) {
-          const date = new Date(item.date).toISOString().split('T')[0]
+        const dateField = item.published_at || item.date || item.timestamp
+        if (dateField && item.sentiment_score !== undefined) {
+          const date = new Date(dateField).toISOString().split('T')[0]
           if (!dataMap.has(date)) {
             dataMap.set(date, { date, news: [], social: [] })
           }
-          dataMap.get(date).social.push(item.sentiment_score)
+          dataMap.get(date).social.push(parseFloat(item.sentiment_score))
         }
       })
     }
