@@ -9,6 +9,11 @@ const Alerts = () => {
   const { fetchData, isLoading } = useData()
   const [domainInfo, setDomainInfo] = useState(null)
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setDomainInfo(null)
+  }, [domainKey])
+
   // Domain-specific alert data
   const getDomainAlerts = (domain) => {
     const alertsData = {

@@ -23,6 +23,13 @@ const Social = () => {
     competitor: 'all'
   })
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setSocialData(null)
+    setDashboardData(null)
+    setFilteredSocial([])
+  }, [domainKey])
+
   useEffect(() => {
     const loadData = async () => {
       try {

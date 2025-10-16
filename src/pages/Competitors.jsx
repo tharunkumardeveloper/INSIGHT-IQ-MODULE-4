@@ -238,6 +238,11 @@ const Competitors = () => {
   const { fetchData, isLoading } = useData()
   const [domainInfo, setDomainInfo] = useState(null)
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setDomainInfo(null)
+  }, [domainKey])
+
   // Comprehensive competitor data for all domains
   const getCompetitorData = (domain) => {
     const competitorData = {

@@ -21,6 +21,12 @@ const News = () => {
     keywords: ''
   })
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setNewsData(null)
+    setFilteredNews([])
+  }, [domainKey])
+
   useEffect(() => {
     const loadData = async () => {
       try {

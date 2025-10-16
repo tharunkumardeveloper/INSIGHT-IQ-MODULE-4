@@ -19,6 +19,14 @@ const Dashboard = () => {
   const [error, setError] = useState(null)
   const [isRefreshing, setIsRefreshing] = useState(false)
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setDashboardData(null)
+    setNewsData(null)
+    setSocialData(null)
+    setError(null)
+  }, [domainKey])
+
   const generateSampleData = (domainKey) => {
     const now = new Date()
     const companies = ['OpenAI', 'Anthropic', 'DeepMind', 'Hugging Face', 'Stability AI']

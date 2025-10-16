@@ -60,10 +60,10 @@ const Navbar = ({ selectedDomain, domains, onChangeDomain }) => {
           </div>
 
           {/* Center - Navigation Menu */}
-          <div className="hidden md:flex space-x-1">
+          <div className="hidden md:flex space-x-1" key={selectedDomain}>
             {menuItems.map((item) => (
               <Link
-                key={item.path}
+                key={`${selectedDomain}-${item.path}`}
                 to={`/domain/${selectedDomain}/${item.path}`}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.path)
@@ -120,11 +120,11 @@ const Navbar = ({ selectedDomain, domains, onChangeDomain }) => {
         </div>
 
         {/* Mobile menu */}
-        <div className="md:hidden border-t border-gray-200 dark:border-gray-700 pt-2 pb-2">
+        <div className="md:hidden border-t border-gray-200 dark:border-gray-700 pt-2 pb-2" key={selectedDomain}>
           <div className="flex space-x-1 overflow-x-auto">
             {menuItems.map((item) => (
               <Link
-                key={item.path}
+                key={`${selectedDomain}-mobile-${item.path}`}
                 to={`/domain/${selectedDomain}/${item.path}`}
                 className={`px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap transition-colors ${
                   isActive(item.path)

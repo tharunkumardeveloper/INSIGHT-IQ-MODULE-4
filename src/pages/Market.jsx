@@ -19,6 +19,15 @@ const Market = () => {
   const [isRefreshing, setIsRefreshing] = useState(false)
   const [domainInfo, setDomainInfo] = useState(null)
 
+  // Reset component state when domain changes
+  useEffect(() => {
+    setDashboardData(null)
+    setNewsData(null)
+    setSocialData(null)
+    setError(null)
+    setDomainInfo(null)
+  }, [domainKey])
+
   const loadData = async (forceRefresh = false) => {
     if (forceRefresh) {
       setIsRefreshing(true)
