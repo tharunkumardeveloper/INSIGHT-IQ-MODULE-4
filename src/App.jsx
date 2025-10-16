@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard'
 import Market from './pages/Market'
 import News from './pages/News'
 import Social from './pages/Social'
+import Competitors from './pages/Competitors'
 import Alerts from './pages/Alerts'
 import { ThemeProvider } from './context/ThemeContext'
 import { DataProvider, useData } from './context/DataContext'
@@ -107,6 +108,7 @@ const AppContent = () => {
               <Route path="/domain/:domainKey/market" element={<Market />} />
               <Route path="/domain/:domainKey/news" element={<News />} />
               <Route path="/domain/:domainKey/social" element={<Social />} />
+              <Route path="/domain/:domainKey/competitors" element={<Competitors />} />
               <Route path="/domain/:domainKey/alerts" element={<Alerts />} />
               <Route path="*" element={<Navigate to={`/domain/${selectedDomain}/dashboard`} replace />} />
             </Routes>

@@ -17,6 +17,7 @@ const Navbar = ({ selectedDomain, domains, onChangeDomain }) => {
     { path: 'market', label: 'Market' },
     { path: 'news', label: 'News' },
     { path: 'social', label: 'Social' },
+    { path: 'competitors', label: 'Competitors' },
     { path: 'alerts', label: 'Alerts' }
   ]
 
